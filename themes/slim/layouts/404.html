@@ -1,0 +1,16 @@
+<head>
+{{ partial "head.html" . }}
+</head>
+
+<body>
+  <div class="container">
+    {{ partial "header.html" . }}
+    <section id="main">
+      <div>
+        <h1 id="title">{{ .Title }}</h1>
+      </div>
+    </section>
+    {{ partial "footer.html" . }}
+  </div>
+  <script src="{{ .Site.BaseURL }}/js/slim.js"></script>
+</body>

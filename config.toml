@@ -1,0 +1,10 @@
+baseurl = "http://sensorium.space"
+languageCode = "en-us"
+title = "Sensorium"
+[params]
+  Subtitle = "The Neuro Hacking Dream Team Blog"
+  GithubID = "nbdt"
+  Wiki = "https://noisebridge.net/dreamteam"
+  MailingList = "https://www.noisebridge.net/mailman/listinfo/neuro"
+  Summary = true  # takes true or false
+  Content = false  # takes true or false
