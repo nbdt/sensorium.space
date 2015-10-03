@@ -14,7 +14,7 @@ This is our very own digital corner of the internet. It's a [debian](https://deb
 
 ## How do I start publishing content?
 
-* Create content in [markdown](https://guides.github.com/features/mastering-markdown)
+* Create content in [markdown](https://guides.github.com/features/mastering-markdown).
 * Hugo markdown files start with [front matter](http://gohugo.io/content/front-matter/). For example:
 
 ```
@@ -27,5 +27,5 @@ tags = [ "example", "faq", "blog" ]
 +++
 ```
 
-* Push content to our [git repo](https://github.com/nbdt/sensorium.space).
-* Content goes in the /content/post directory.
+* Push content to our [git repo](https://github.com/nbdt/sensorium.space) in the /content/post directory.
+* The web server will automatically pull the change and generate HTML.
