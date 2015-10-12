@@ -1,4 +1,4 @@
-baseurl = "http://sensorium.space"
+BaseURL = "http://sensorium.space/"
 languageCode = "en-us"
 title = "Sensorium"
 [params]
