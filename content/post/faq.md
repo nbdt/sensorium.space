@@ -1,10 +1,12 @@
 +++
 title = "FAQ"
-description = ""
+description = "Frequently Asked Questions"
 date = "2015-09-29"
 categories = [ "example", "faq" ]
 tags = [ "example", "faq" ]
+authors = [ "Kevin" ]
 +++
+
 
 ## What's this?
 

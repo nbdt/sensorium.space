@@ -14,7 +14,7 @@ a {
 
 img {
   max-width: 100%;
-  margin: 1rem 0 0 1rem;
+  margin: auto;
   border: 0;
   border-radius: 5px; }
 
@@ -333,29 +333,27 @@ button,
   .post-title a:hover:after {
     right: -3px; }
 
-.post-date {
-  color: #ccc;
-  font-size: 14px;
-  margin-top: -25px;
-  display:block;
-  position: relative; }
-
 .post-content {
-  margin: 2rem 0; }
+  margin: 1rem 0; }
 
+.summary {
+  margin: 1rem 0; }
 /* styling for tags on homepage */
 
-.post-tags {
+.post-authors, .post-date, .post-tags {
   color: #ccc;
   display: block;
   font-size: 14px;
-  position: relative;
-  margin-top: -25px;
-  margin-left: 125px;
-  text-align: right;
-  max-width: 525px;
-}
+  position: relative; 
+  display: inline;}
 
 .post-tags a {
-	color: #ccc;
+  color: #ccc;
+}
+
+.post-tags {
+  float: right;
+}
+.post-authors {
+  margin-left: 1%;
 }

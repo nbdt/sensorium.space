@@ -13,6 +13,21 @@
         <div class="post">
           <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
           <span class="post-date">{{ .Date.Format "Jan 2, 2006 " }}</span>
+	  {{ if .Params.authors }}
+	    <span class="post-authors">
+	    {{ $len := len .Params.authors }}
+	    {{ if ge $len 1 }}
+	      By: {{ delimit .Params.authors ", "}}
+	    {{ end }}
+	    </span>
+	  {{ end }}
+	  {{ if .Params.tags }}
+	     <span class="post-tags">
+	       {{ range .Params.tags }}
+	         #<a href="/tags/{{ . | urlize }}">{{ . }}</a>
+	       {{ end }}
+	     </span>
+          {{ end }}
           <div class="post-content">
             {{ .Content }}
           </div>
@@ -30,7 +45,6 @@
   <script>
     hljs.initHighlightingOnLoad();
   </script>
-  {{ with .Site.Params.AnalyticsID }}{{ partial "analytics.html" . }}{{ end }}
 </body>
 
 </html>
