@@ -6,7 +6,7 @@ categories = [ "intro" ]
 tags = [ "intro", "level1" ]
 authors = [ "Kevin", "Jade" ]
 +++
-![GroupPic](http://localhost:1313/imgs/Neurohacking.jpg "Jade, Dan, Eric and a blinky brain")
+![GroupPic](https://sensorium.space/imgs/Neurohacking.jpg "Jade, Dan, Eric and a blinky brain")
 
 This is the Noisebridge Neurohacking Dreamteam blog. The group began in the Spring of 2013 with the idea to study neuroscience, create art, share dreams and dissect every step along the way.
 
